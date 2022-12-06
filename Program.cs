@@ -7,17 +7,9 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 
 if (num1 > num2)
 {
-    Console.Write("First number большее, second number меньшее. ");
+    Console.Write("max = "+ num1);
 }
 else
 {
-    Console.Write("Second number большее, first number меньшее. ");
-}
-if (num1==num2)
-{
-    Console.Write("First number равен second number.");
-}
-else
-{
-    Console.Write("First number не равен second number.");
+    Console.Write("max = " + num2);
 }
